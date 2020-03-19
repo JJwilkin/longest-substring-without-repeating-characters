@@ -47,6 +47,5 @@ int lengthOfLongestSubstring(string s) {
          if(substring.size() > max_length) {
                     max_length = substring.size();
                 }
-// cout << endl << "this is count: " << count << endl;
         return max_length;
     }
